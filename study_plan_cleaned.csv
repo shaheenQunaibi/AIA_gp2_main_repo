@@ -1,0 +1,64 @@
+COURSE_ID,COURSE_DESCE,COURSE_TYP,COURSE_TYPEE,LEVEL_ID,LEVEL_DESCE,REQ_TYP,REQ_TYPEE,MARK_TYP,MARK_TYPEE,WEB_FLAG,LOAD_HOURS,REQ_HOURS,PRE_COURSE_ID,RULE_ID,RULE_DESC
+11253,Object Oriented Programming Lab,2,Lab,2,Second Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,1,68,11206,2,Concurrent
+11212,Data Structures and Introduction to Algorithms,1,lecture,2,Second Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,11206,1,Prerequisite
+11313,Algorithms  Design and Analysis,1,lecture,3,Third Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,11212,1,Prerequisite
+11354,Database Systems Lab,2,Lab,3,Third Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,1,68,11323,2,Concurrent
+11355,Operating Systems Lab,2,Lab,3,Third Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,1,68,11335,2,Concurrent
+31352,Jerusalem : History and Facts,1,lecture,3,Third Year,2,Elective University Requirements ,1,Distributed 60/40,1,3,9,0,0,0
+11102,Introduction to Computer Science,1,lecture,1,First Year,3,Compulsory School Requirements ,1,Distributed 60/40,0,3,25,0,0,0
+11436,Distributed Systems,1,lecture,4,Fourth Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,11335,1,Prerequisite
+11151,Structured ProgrammingLab,2,Lab,1,First Year,3,Compulsory School Requirements ,1,Distributed 60/40,0,1,25,11103,2,Concurrent
+31311,Scientific Research Methods,1,lecture,3,Third Year,2,Elective University Requirements ,1,Distributed 60/40,1,3,9,0,0,0
+11435,Data Communications & Computer Networks,1,lecture,4,Fourth Year,5,Elective Program Requirements,1,Distributed 60/40,0,3,12,11335,1,Prerequisite
+12348,Multimedia Systems,1,lecture,3,Third Year,5,Elective Program Requirements,1,Distributed 60/40,0,3,12,11206,1,Prerequisite
+20133,Calculus (2),1,lecture,1,First Year,3,Compulsory School Requirements ,1,Distributed 60/40,0,3,25,20132,1,Prerequisite
+20233,Statistical Methods,1,lecture,2,Second Year,3,Compulsory School Requirements ,1,Distributed 60/40,0,3,25,0,0,0
+20234,Linear Algebra,1,lecture,1,First Year,3,Compulsory School Requirements ,1,Distributed 60/40,1,3,25,20133,1,Prerequisite
+11103,Structured Programming,1,lecture,1,First Year,3,Compulsory School Requirements ,1,Distributed 60/40,0,3,25,11102,1,Prerequisite
+11206,Object Oriented Programming,1,lecture,2,Second Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,11103,1,Prerequisite
+20251,History of Science,1,lecture,2,Second Year,2,Elective University Requirements ,1,Distributed 60/40,1,3,9,0,0,0
+11449,Computer and Society,1,lecture,4,Fourth Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,1,68,0,3,Finish set amount of hours
+11464,Information Systems Security,1,lecture,4,Fourth Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,11335,1,Prerequisite
+31255,Entrepreneurship for Business,1,lecture,2,Second Year,1,Compulsory University Requirements,1,Distributed 60/40,1,3,18,0,3,Finish set amount of hours
+31261,Introduction to Politics and Economic Science,1,lecture,2,Second Year,2,Elective University Requirements ,1,Distributed 60/40,1,3,9,0,0,0
+31351,Contemporary Issues in the Arab  World,1,lecture,3,Third Year,2,Elective University Requirements ,1,Distributed 60/40,1,3,9,0,0,0
+20200,Technical Writing and Communication Skills,1,lecture,2,Second Year,3,Compulsory School Requirements ,1,Distributed 60/40,0,3,25,31112,1,Prerequisite
+20132,Calculus (1),1,lecture,1,First Year,3,Compulsory School Requirements ,1,Distributed 60/40,0,3,25,0,0,0
+31252,Governance and Development,1,lecture,2,Second Year,2,Elective University Requirements ,1,Distributed 60/40,1,3,9,0,0,0
+14330,Artificial Intelligence,1,lecture,3,Third Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,11212,1,Prerequisite
+14350,Computer Architecture for Machine Learning,1,lecture,3,Third Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,14330,1,Prerequisite
+14351,Natural Language Processing,1,lecture,3,Third Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,14330,1,Prerequisite
+14452,Pattern Recognition,1,lecture,4,Fourth Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,14350,1,Prerequisite
+14140,Introduction to Data Science,1,lecture,1,First Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,11102,1,Prerequisite
+14270,Statistics and  Probability for Data Science,1,lecture,2,Second Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,20233,1,Prerequisite
+14260,Data Engineering,1,lecture,2,Second Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,14140,1,Prerequisite
+14261,Data Engineering Lab,2,Lab,2,Second Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,1,68,14260,2,Concurrent
+14362,High Performance Computing for Big Data,1,lecture,3,Third Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,14260,1,Prerequisite
+14465,Data Mining,1,lecture,4,Fourth Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,14362,1,Prerequisite
+14364,Data Visualization,1,lecture,3,Third Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,14270,1,Prerequisite
+14466,Business Intelligence,1,lecture,4,Fourth Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,14364,1,Prerequisite
+14458,Computer Vision,1,lecture,4,Fourth Year,5,Elective Program Requirements,1,Distributed 60/40,0,3,12,12446,1,Prerequisite
+14467,Cloud Computing,1,lecture,4,Fourth Year,5,Elective Program Requirements,1,Distributed 60/40,0,3,12,11335,1,Prerequisite
+14455,Information Retrieval,1,lecture,4,Fourth Year,5,Elective Program Requirements,1,Distributed 60/40,0,3,12,11206,1,Prerequisite
+14357,Special Topic In Data Science and AI (1),1,lecture,4,Fourth Year,5,Elective Program Requirements,1,Distributed 60/40,0,3,12,0,0,0
+14469,Special Topic In Data Science and AI (2),1,lecture,4,Fourth Year,5,Elective Program Requirements,1,Distributed 60/40,0,3,12,0,0,0
+14456,Robotics Programming,1,lecture,4,Fourth Year,5,Elective Program Requirements,1,Distributed 60/40,0,3,12,11103,1,Prerequisite
+12446,Digital Image Processing,1,lecture,4,Fourth Year,5,Elective Program Requirements,1,Distributed 60/40,0,3,12,11212,1,Prerequisite
+13477,Software Engineering,1,lecture,1,First Year,5,Elective Program Requirements,1,Distributed 60/40,1,3,12,11323,1,Prerequisite
+31152,Arabic Islamic Civilization,1,lecture,1,First Year,2,Elective University Requirements ,1,Distributed 60/40,1,3,9,0,0,0
+31361,Introduction to  Philosophy,1,lecture,3,Third Year,2,Elective University Requirements ,1,Distributed 60/40,1,3,9,0,0,0
+31271,Environmental Science,1,lecture,2,Second Year,2,Elective University Requirements ,1,Distributed 60/40,1,3,9,0,0,0
+11335,Operating Systems,1,lecture,3,Third Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,11212,1,Prerequisite
+31260,Human Rights,1,lecture,2,Second Year,2,Elective University Requirements ,1,Distributed 60/40,1,3,9,0,0,0
+31111,Arabic Language,1,lecture,1,First Year,1,Compulsory University Requirements,1,Distributed 60/40,1,3,18,31021,1,Prerequisite
+31121,English Language,1,lecture,1,First Year,1,Compulsory University Requirements,1,Distributed 60/40,1,3,18,31022,1,Prerequisite
+31151,National Education,1,lecture,1,First Year,1,Compulsory University Requirements,1,Distributed 60/40,0,3,18,0,0,0
+11344,"Advanced Topics in Internet Programming
+",1,lecture,3,Third Year,5,Elective Program Requirements,1,Distributed 60/40,0,3,12,11323,1,Prerequisite
+31130,Foreign languages,1,lecture,1,First Year,2,Elective University Requirements ,1,Distributed 60/40,1,3,9,0,0,0
+31264,Introduction To Psychology,1,lecture,2,Second Year,2,Elective University Requirements ,1,Distributed 60/40,1,3,9,0,0,0
+14141,Introduction to Data Science lab,2,Lab,1,First Year,4,Compulsory Program Requirements,1,Distributed 60/40,1,1,68,14140,2,Concurrent
+14331,Artificial Intelligence lab,2,Lab,1,First Year,4,Compulsory Program Requirements,1,Distributed 60/40,1,1,68,14330,2,Concurrent
+14271,Statistics and  Probability for Data Science lab,2,Lab,1,First Year,4,Compulsory Program Requirements,1,Distributed 60/40,1,1,68,14270,2,Concurrent
+11323,Database Systems,1,lecture,3,Third Year,4,Compulsory Program Requirements,1,Distributed 60/40,0,3,68,11212,1,Prerequisite
+20134,Discrete Mathematics (1),1,lecture,1,First Year,3,Compulsory School Requirements ,1,Distributed 60/40,0,3,25,0,0,0

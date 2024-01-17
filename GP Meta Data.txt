@@ -1,0 +1,68 @@
+Summary of each column in the dataset study_plan_cleaned:
+
+- COURSE_ID: Unique courseID for each course.
+
+- COURSE_DESCE:The name of the course.
+
+- COURSE_TYP: Numeric code indicating the course type "1" if its a classroom lecture, "2" if it's a lab. 
+
+- COURSE_TYPEE: Text description of the course type if it's a classroom lecture or a lab.
+
+- LEVEL_ID: Numeric code indicating the level of the course "1" first year, "2" Second year, "3" Third year, "4" Fourth year.
+
+- LEVEL_DESCE: Text description of the course level, (First year/Second year/Third year/Fourth year).
+
+- REQ_TYP: Numeric code indicating the requirement type :
+"1" Compulsory University Requirements
+"2" Elective University Requirements .
+"3" Compulsory School Requirements. 
+"4" Compulsory Program Requirements.
+"5" Elective Program Requirements.
+
+- REQ_TYPEE: Text description of the requirement type : 
+Compulsory University Requirements.
+Elective University Requirements.
+Compulsory School Requirements .
+Compulsory Program Requirements.
+Elective Program Requirements.
+
+- MARK_TYP: Numeric code indicating the marking type whether it is pass/fail or 60/40 distribution.
+
+- MARK_TYPEE: Text description of the marking type if it hold a 40% grade for the final exam from the total grade.
+
+- WEB_FLAG: Binary indicator (0 or 1) for whether the course is offered online.
+
+- LOAD_HOURS: Numeric value indicating the load hours for the course either being 3 for lecture, 2 for graduation project2,1 for labs, 0 for remedial
+
+- REQ_HOURS: Numeric value indicating the required hours for the course.
+
+- PRE_COURSE_ID: Course ID of the prerequisite course.
+
+- RULE_ID: Numeric code indicating a rule for the course.
+"0" Doesn't require a Prerequisite.
+"1" Requires a Prerequisite.
+"2" Requires a concurrent course with it.
+
+- RULE_DESC: Description of the rule if (Doesn't require a Prerequisite/Requires a Prerequisit/Requires a concurrent course with it).
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Summary of each column in the dataset df_cleaned:
+
+In the first column of the we have "YEAR_ID" in this column we have 4 unique values. The 4 unique values are: 2019, 2020, 2021, 2022. Each unique value represents the year in which the student enrolled into this class. 
+In the second column we have "SEM_ID", in this column we have 3 unique values: 1, 2, 3. In this column these 3 unique values represent which term/semester the student enrolled into the class. 1 represents the fall semester(first term), 2 represents the spring semester(second term) and 3 represents the summer semester(third term).
+ The third column "STD_NO" is a column with many unique values that represent each student with their own unique student number. 
+In the fourth column "COURSE_ID" we also have many unique values. Each course has a unique number so the each number in this column are representing each course enrolled. 
+In the fifth column "COURSE_EDESC" we have 85 unique courses and these are the courses that the students enrolled in. 
+In the last column "AVG" the number in the cell represents the grade the student has achieved in the course that he has enrolled in.
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Summary of each column in the dataset high_school_df_cleaned:
+
+In the "high_school_df_cleaned.csv" file we have 6 columns.
+ In the first column "STD_NO" we have 458 unique values. Each unique value represents a student that is enrolled into the PSUT. 
+In the second column "MAJOR_EDESC" this column represents what major each student is studying. In this file all of the students are Data Science & Artificial Intellgence students. 
+In the third column "GENDER_EDESC" we have 2 unique values which are: Male and Female. This column represents the gender of each student.
+ In the fourth column "TAWJIH_COUNTRY" we have 13 unique values. the unique values are: 'Jordan', 'Palestine', 'K.S.A', 'U.A.E', 'Oman', 'Kuwait', 'Austria', 'Qatar', 'Syria', 'Egypt', 'U.S.A.', 'Yemen', 'Spain'. Each unique value represents the country in which the student successfully achieved their high school diplomas/tawjihi from. 
+In the fifth column "TAWJIH_GPA" we have 34 unique values. Each unique value here represents the students final GPA after finishing high school. The lowest GPA is 60 and the highest is 100. 
+In the last column "TAWJIH_BRANCH" we have 11 unique values which are: 'GCE Sci', 'Scientific', 'Industrial', 'IB Scie', 'SAT2 Sci.', 'Scientific / Medical ', 'Literary', 'Scientific /Eng.', 'Scientific / ', 'Scientific / IT', 'Scientific /Adv.'. Each unique value represents what type of high school equivalency each student took.
