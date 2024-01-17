@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIA</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 50px;
+        }
+        h1 {
+            color: #003366;
+        }
+        form {
+            display: inline-block;
+            text-align: left;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #003366;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #003366;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #366696;
+        }
+        p {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #003366;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            color: #003366;
+        }
+        .error {
+            color: red;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #003366;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #003366;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://portal.psut.edu.jo/" target="_blank">
+        <img src="https://portal.psut.edu.jo/Styles/Ar/Images/LogoVcampus.png" alt="Uni logo" style="width:450px;height: 150px;">
+    </a>
+    <h1>Academic Intelligent Advisor</h1>
+    <form method="post">
+        <label for="student_id">Enter Student ID:</label>
+        <input type="text" id="student_id" name="student_id" required>  
+        <label for="target_hours">Enter Target Hours:</label>
+        <input type="text" id="target_hours" name="target_hours" required>
+        <button type="submit">Generate Recommendation</button>
+    </form>
+    {% if result %}
+        <p>{{ result }}</p>
+        <button class="alert-button" onclick="showAlert()" style="margin-top: 10px;">This is an alert! Please put in the correct values.</button>
+    {% elif recommendations %}
+        <table style="width:100%">
+            <tr>
+                <th>Course ID</th>
+                <th>Course Name</th>
+            </tr>
+            {% for recommendation in recommendations %}
+                <tr>
+                    <td>{{ recommendation.course_id }}</td>
+                    <td>{{ recommendation.course_name }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <a href="https://portal.psut.edu.jo/" target="_blank">
+        <button class="alert-button" onclick="showAlert()" style="margin-top: 10px;" >You now have a recommended schedule! Click this button to go to Regnew and sign up for your classes.</button>
+        </a>
+    {% endif %}    
+</body>
+</html>
